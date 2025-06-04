@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APIs Conversor de Monedas</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="card">
+        <h1>Conversor de Monedas</h1>
+        <!-- CAJA DATOS input y seleccion de moneda -->
+      <div class="cajaDatos">
+        <p>Pesos CPL</p>
+        <input
+          id="inputpeso"
+          type="number"
+          placeholder="Ingrese el monto en CPL"
+          min="0"
+        />
+
+        <p>Moneda a convertir</p>
+        <select name="divisas" id="divisas">
+          <option value="dolar">Dolar</option>
+          <option value="euro">Euro</option>
+          <option value="uf">Unidad de Fomento</option>
+          <option value="utm">Unidad Tributaria Mensual</option>
+        </select>
+      </div>
+
+      <!-- ---- Caja de Boton y Resultado--------- -->
+       <div class="btnyresult">
+        <button class="boton" id="btnconvertir">Convertir</button>
+        <span>Resultado: <p id="resultado"></p>  </span>
+
+
+
+       </div>
+    </div>
+
+    <script src="./assets/js/"></script>
+  </body>
+</html>
