@@ -1,0 +1,87 @@
+body {
+  
+  background: linear-gradient(30deg, #000405, #530966, #00111d, #f308d4);
+  background-size: 300% 300%;
+  animation: fondoAnimado 10s infinite alternate;
+  color: #dfe6e9;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  animation: neon 3s ease-in-out infinite;
+  text-shadow: 2px 2px 5px  #ff910a, -2px -2px 20px #ff99ff;
+  color: white;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  row-gap: 15px;
+}
+.conversor {
+  background: linear-gradient(30deg, #000405, #0058aa, #081481, #0895f3);
+  animation: fondoAnimado 10s infinite alternate;
+  color: #ce56ec;
+  border: 3px solid #f308d4;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px #ff00ff;
+
+  margin: 10px;
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 60%;
+  height: 40%;
+}
+
+.conversor p {
+  color: #ff910a;
+  font-size: 30px;
+}
+
+.conversor select {
+  border: #f308d4 solid 2px;
+  border-radius: 10px;
+  padding: 10px;
+  background: linear-gradient(30deg, #000405, #e607c8, #9e06a1, #0895f3);
+  color: #dfe6e9;
+  margin-bottom: 20px;
+}
+
+.btnyresult {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 400px;
+}
+
+.boton {
+  background-color: #0895f3;
+  color: #dfe6e9;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid blue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+  box-shadow: 0px 0px 10px 0px #ff00ff;
+}
+
+span {
+  animation: neon 3s ease-in-out infinite;
+  text-shadow: 2px 2px 5px #ff00ff, -2px -2px 20px #ff99ff;
+  color: rgb(252, 252, 252);
+}
+
